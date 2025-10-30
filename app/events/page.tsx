@@ -42,7 +42,7 @@ export default function EventsPage() {
     {
       title: "3rd Annual Data Challenge",
       partner: "Tower Research Capital (Limestone)",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1742192013_3590089273671621021_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/tower-research-capital.webp",
       date: "March 22, 2025",
       prize: "INR 18,00,000/-",
       platform: "HackerRank",
@@ -52,7 +52,7 @@ export default function EventsPage() {
     {
       title: "Winter School of Quant",
       partner: "WorldQuant",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1733856776_3520168240357831360_66127583775.jpg",
+      image: "/images/instagram_photos/quant.iitb/winter-school-of-quant.jpg",
       date: "December 16, 2024",
       platform: "Online",
       description: "An exclusive session on Quantitative Research. Featured speaker Aditya Chaturvedi (Senior Researcher at WorldQuant) covered stock markets, hedge funds, the quant ecosystem, and understanding alphas.",
@@ -60,7 +60,7 @@ export default function EventsPage() {
     {
       title: "Session on OPTION THEORY 101",
       partner: "IMC",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1729963229_3487506800576714359_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/options-theory.heic",
       date: "September 24, 2024",
       platform: "Venue: LA202 (In-person)",
       description: "An exclusive in-person session with IMC traders to learn financial derivatives, pick-up strategies for high returns, and interact with market leaders. Plus freebies and merch!",
@@ -68,7 +68,7 @@ export default function EventsPage() {
     {
       title: "Guest Lecture on VIX Options",
       partner: "Taranjit Singh (MIT, Wharton)",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1725104451_3446748417937398140_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/vix.webp",
       date: "August 18, 2024",
       platform: "MS Teams",
       description: "A golden opportunity featuring Taranjit Singh, former Head VIX Options trader at DRW. He shared unparalleled industry insights from his stellar academic and professional background.",
@@ -76,7 +76,7 @@ export default function EventsPage() {
     {
       title: "Summer of Quant 2024 (Wrap-up)",
       partner: "Zelta Labs, CQF Institute, IMC",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1724082731_3438177603882604566_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/soq-2024.heic",
       date: "August 8, 2024",
       platform: "Online Program",
       description: "Our 2024 flagship program with over 1000+ participants. It featured courses on Time Series Analysis, Derivatives Pricing, and a Probability Primer, with guest lectures from Zelta Labs, IMC, and sessions by Dr. Riaz Ahmed and Sonia Arora from the CQF Institute.",
@@ -84,7 +84,7 @@ export default function EventsPage() {
     {
       title: "QC Newsletter",
       partner: "Quant Community Initiative",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1723830475_3436061525666308261_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/newsletter.webp",
       date: "Launched July 24, 2024",
       platform: "Online",
       description: "Our curated content compass! We deliver the hottest trends, insightful research, educational resources, and exclusive opportunities straight to your inbox.",
@@ -92,7 +92,7 @@ export default function EventsPage() {
     {
       title: "SoQ: Careers in Quant Finance",
       partner: "CQF Institute (Sonia Arora)",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1721832993_3419305434076992761_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/soq-sonia-arora.jpg",
       date: "July 11, 2024",
       platform: "Zoom",
       description: "A session from 'Summer of Quant' featuring Sonia Arora (Manager, Fitch Learning) on careers in quant finance and resume building.",
@@ -124,7 +124,7 @@ export default function EventsPage() {
     {
       title: "Trade-a-thon",
       partner: "Optiver",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1718483472_3391207614799523171_66127583775.heic",
+      image: "/images/instagram_photos/quant.iitb/trade-a-thon.heic",
       date: "May 28, 2024",
       platform: "Zoom (Virtual Event)",
       description: "Optiver's virtual trade-a-thon to compete for top prizes and challenge quantitative skills by solving puzzles on the fair theoretical value of a stock.",
