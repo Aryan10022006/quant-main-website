@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Linkedin, Github, Mail, Heart, Sparkles, ArrowUpRight, Instagram } from 'lucide-react';
+import { Linkedin, Mail, Heart, Sparkles, ArrowUpRight, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
@@ -29,12 +29,6 @@ const Footer: React.FC = () => {
         href: 'https://www.instagram.com/quant.iitb/',
         icon: Instagram,
         color: 'hover:text-pink-400 hover:bg-pink-500/10',
-      },
-      {
-        name: 'GitHub',
-        href: 'https://github.com/quant-community-iitb',
-        icon: Github,
-        color: 'hover:text-accent-slate hover:bg-accent-slate/10',
       },
       {
         name: 'Email',
