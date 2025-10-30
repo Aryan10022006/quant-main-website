@@ -116,7 +116,7 @@ export default function ProjectsPage() {
               Unlike typical academic projects, SoQ teams work with{' '}
               <span className="text-primary-400 font-bold">real financial data</span>, 
               implement professional-grade backtesting frameworks, and present their findings 
-              to industry experts. It's the closest experience to working at a quantitative 
+              to industry experts. It&apos;s the closest experience to working at a quantitative 
               trading firm while still in college.
             </p>
           </motion.div>

@@ -72,7 +72,7 @@ const WhatWeDoSection: React.FC = () => {
           </h2>
 
           <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            We're a community of passionate students exploring the intersection of mathematics,
+            We&apos;re a community of passionate students exploring the intersection of mathematics,
             computer science, and finance through hands-on projects and research.
           </p>
         </motion.div>

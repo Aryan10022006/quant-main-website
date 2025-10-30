@@ -29,7 +29,7 @@ export default function PreLoader() {
   const letters2 = line2.split('');
 
   // Generate random drawing and filling patterns for each letter
-  const generateAnimations = (letters: string[]) => useMemo(() => {
+  const generateAnimations = (letters: string[]) => {
     return letters.map(() => {
       // Random drawing direction from 8 possible vertices/corners
       const drawingDirections = [
@@ -62,10 +62,10 @@ export default function PreLoader() {
         fillDelay: Math.random() * 0.5, // Random fill start delay between 0-0.5s
       };
     });
-  }, [letters.length]);
+  };
 
-  const letterAnimations1 = generateAnimations(letters1);
-  const letterAnimations2 = generateAnimations(letters2);
+  const letterAnimations1 = useMemo(() => generateAnimations(letters1), [letters1]);
+  const letterAnimations2 = useMemo(() => generateAnimations(letters2), [letters2]);
 
   const renderLine = (letters: string[], animations: any[]) => (
     <div className="flex items-center justify-center gap-x-1 sm:gap-x-2 md:gap-x-3">

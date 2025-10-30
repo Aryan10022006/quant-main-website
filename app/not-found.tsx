@@ -99,7 +99,7 @@ export default function NotFound() {
             <span className="gradient-text">Path Not Found</span>
           </h2>
           <p className="text-lg md:text-xl text-dark-300 mb-2 font-medium">
-            The page you're looking for has drifted into the quantum void.
+            The page you&apos;re looking for has drifted into the quantum void.
           </p>
           <p className="text-md text-dark-400">
             It might have been moved, deleted, or never existed in this timeline.

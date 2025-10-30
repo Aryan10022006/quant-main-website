@@ -276,7 +276,7 @@ export default function EventsPage() {
               <Sparkles className="w-16 h-16 text-[#00BFFF] mx-auto" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Don't Miss Out on <span className="bg-gradient-to-r from-[#00BFFF] to-[#0891B2] bg-clip-text text-transparent">Future Events</span>
+              Don&apos;t Miss Out on <span className="bg-gradient-to-r from-[#00BFFF] to-[#0891B2] bg-clip-text text-transparent">Future Events</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
               Join our community to get notified about upcoming workshops, competitions, and guest lectures

@@ -83,7 +83,7 @@ const SponsorsPage: React.FC = () => {
           </h1>
 
           <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            We're proud to collaborate with industry leaders, academic institutions, and innovative firms 
+            We&apos;re proud to collaborate with industry leaders, academic institutions, and innovative firms 
             that share our vision for quantitative excellence.
           </p>
         </motion.div>
@@ -138,7 +138,7 @@ const SponsorsPage: React.FC = () => {
               Interested in Partnering?
             </h2>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              We're always looking to collaborate with organizations that align with our mission 
+              We&apos;re always looking to collaborate with organizations that align with our mission 
               of advancing quantitative finance education and research.
             </p>
             <motion.a

@@ -52,7 +52,7 @@ export default function JoinPage() {
               Join the <span className="gradient-text">Quant Community</span>
             </h1>
             <p className="text-xl text-dark-300 max-w-3xl mx-auto leading-relaxed">
-              Connect with IIT Bombay's premier{' '}
+              Connect with IIT Bombay&apos;s premier{' '}
               <span className="text-accent-cyan font-semibold">quantitative finance</span> community.
               Stay updated on workshops, competitions, and industry insights.
             </p>

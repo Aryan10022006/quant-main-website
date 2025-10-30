@@ -10,9 +10,8 @@ const HeroSectionV2: React.FC = () => {
   const [currentWord, setCurrentWord] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const words = ['Quantitative.', 'Algorithmic.', 'Data-Driven.', 'Innovative.'];
-
   useEffect(() => {
+    const words = ['Quantitative.', 'Algorithmic.', 'Data-Driven.', 'Innovative.'];
     const currentFullWord = words[typingIndex];
     const typingSpeed = isDeleting ? 50 : 150;
     const pauseBeforeDelete = 2000;
@@ -35,7 +34,7 @@ const HeroSectionV2: React.FC = () => {
     }, typingSpeed);
 
     return () => clearTimeout(timer);
-  }, [currentWord, isDeleting, typingIndex, words]);
+  }, [currentWord, isDeleting, typingIndex]);
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-[#0A0A0A]">
@@ -252,7 +251,7 @@ const HeroSectionV2: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -273,7 +272,7 @@ const HeroSectionV2: React.FC = () => {
             />
           </div>
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

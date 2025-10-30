@@ -133,7 +133,7 @@ export default function AboutPage() {
               Why <span className="gradient-text">Join</span>?
             </h2>
             <p className="text-lg text-dark-300 max-w-2xl mx-auto">
-              Become part of a community that's shaping the future of quantitative finance
+              Become part of a community that&apos;s shaping the future of quantitative finance
             </p>
           </div>
 
