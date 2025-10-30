@@ -1,0 +1,23 @@
+# Coolify deployment configuration
+# See: https://coolify.io/docs
+
+# Build settings
+build:
+  # Use Dockerfile for build
+  dockerfile: Dockerfile
+  context: .
+
+# Port configuration
+port: 3000
+
+# Health check
+healthcheck:
+  path: /
+  interval: 30s
+  timeout: 10s
+  retries: 3
+
+# Environment variables (optional - set in Coolify UI)
+# environment:
+#   - NODE_ENV=production
+#   - NEXT_TELEMETRY_DISABLED=1

@@ -1,0 +1,17 @@
+{
+  "name": "Quant Community, IIT Bombay",
+  "short_name": "Quant IITB",
+  "description": "The official hub for IIT Bombay's Quant Community",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#00BFFF",
+  "icons": [
+    {
+      "src": "/images/qc_white_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
