@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Linkedin, Github, Mail, Heart, Sparkles, ArrowUpRight } from 'lucide-react';
+import { Linkedin, Github, Mail, Heart, Sparkles, ArrowUpRight, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
@@ -25,6 +25,12 @@ const Footer: React.FC = () => {
         color: 'hover:text-primary-400 hover:bg-primary-500/10',
       },
       {
+        name: 'Instagram',
+        href: 'https://www.instagram.com/quant.iitb/',
+        icon: Instagram,
+        color: 'hover:text-pink-400 hover:bg-pink-500/10',
+      },
+      {
         name: 'GitHub',
         href: 'https://github.com/quant-community-iitb',
         icon: Github,
@@ -32,7 +38,7 @@ const Footer: React.FC = () => {
       },
       {
         name: 'Email',
-        href: 'mailto:quantcommunity@iitb.ac.in',
+        href: 'mailto:quant.iitb@gmail.com',
         icon: Mail,
         color: 'hover:text-accent-cyan hover:bg-accent-cyan/10',
       },
@@ -125,10 +131,10 @@ const Footer: React.FC = () => {
               <div className="p-4 rounded-xl bg-dark-900/50 border border-dark-800 hover:border-primary-500/30 transition-all duration-300">
                 <p className="text-xs text-dark-500 mb-1 uppercase tracking-wider">Email</p>
                 <a 
-                  href="mailto:quantcommunity@iitb.ac.in" 
+                  href="mailto:quant.iitb@gmail.com" 
                   className="text-sm text-primary-400 hover:text-primary-300 transition-colors font-medium break-all"
                 >
-                  quantcommunity@iitb.ac.in
+                  quant.iitb@gmail.com
                 </a>
               </div>
               <div className="p-4 rounded-xl bg-dark-900/50 border border-dark-800">

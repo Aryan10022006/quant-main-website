@@ -60,7 +60,7 @@ export default function JoinPage() {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Benefits Section
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -79,7 +79,7 @@ export default function JoinPage() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* For All Members */}
+            {/* For All Members 
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -158,7 +158,7 @@ export default function JoinPage() {
               </Card>
             </motion.div>
 
-            {/* For Core Researchers */}
+            {/* For Core Researchers 
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -166,7 +166,7 @@ export default function JoinPage() {
               transition={{ duration: 0.6 }}
             >
               <Card className="h-full border-accent-cyan/30 relative overflow-hidden">
-                {/* Premium Badge */}
+                {/* Premium Badge 
                 <div className="absolute top-4 right-4 px-3 py-1 bg-accent-cyan/20 border border-accent-cyan/40 rounded-full text-xs font-bold text-accent-cyan">
                   SELECTIVE
                 </div>
@@ -251,7 +251,7 @@ export default function JoinPage() {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact & Join Section */}
       <section className="relative py-20 border-y border-dark-800/50 overflow-hidden">
@@ -328,7 +328,7 @@ export default function JoinPage() {
               </motion.a>
 
               <motion.a
-                href="mailto:quantcommunity@iitb.ac.in"
+                href="mailto:quant.iitb@gmail.com"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="glass p-6 rounded-xl border border-primary-500/30 hover:border-primary-500/50 transition-all duration-300 group"
@@ -337,7 +337,7 @@ export default function JoinPage() {
                   <Mail className="w-6 h-6 text-primary-400" />
                 </div>
                 <h3 className="text-lg font-bold text-dark-50 mb-2">Email Us</h3>
-                <p className="text-sm text-dark-300">quantcommunity@iitb.ac.in</p>
+                <p className="text-sm text-dark-300">quant.iitb@gmail.com</p>
               </motion.a>
             </div>
 

@@ -142,7 +142,7 @@ const SponsorsPage: React.FC = () => {
               of advancing quantitative finance education and research.
             </p>
             <motion.a
-              href="mailto:quantcommunity@iitb.ac.in"
+              href="mailto:quant.iitb@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#00BFFF] text-[#0A0A0A] font-bold rounded-xl hover:bg-[#0EA5E9] transition-colors duration-300 shadow-glow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
