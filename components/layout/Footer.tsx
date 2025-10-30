@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
               >
                 <Heart className="h-4 w-4 text-primary-500" fill="currentColor" />
               </motion.div>
-              <span>at IIT Bombay</span>
+              <span>by Aryan Tamboli</span>
             </div>
           </div>
         </div>
