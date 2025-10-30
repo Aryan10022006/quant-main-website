@@ -14,7 +14,7 @@ export default function EventsPage() {
     {
       title: "International Quant Championship 2025",
       partner: "WorldQuant BRAIN",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1747056687_3630897120397798911_66127583775.jpg",
+      image: "/images/instagram_photos/quant.iitb/quant.iitb_1743663211_3602430577403374593_66127583775.heic",
       date: "March - September 2025",
       prize: "US$100,000 Pool",
       platform: "WorldQuant BRAIN",
@@ -24,7 +24,7 @@ export default function EventsPage() {
     {
       title: "Mystery Planet",
       partner: "Jane Street",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1743663211_3602430577403374593_66127583775.heic",
+      image: "/images/instagram_photos/quant.iitb/mystery_planet.webp",
       date: "April 4-5, 2025",
       platform: "IITB LHC & Novotel Mumbai",
       eligibility: "Open ONLY for Years 1-3 (CSE, EE, Physics, Maths)",
@@ -33,7 +33,7 @@ export default function EventsPage() {
     {
       title: "QuantQuest",
       partner: "Qube Research & Technologies (QRT)",
-      image: "/images/instagram_photos/quant.iitb/quant.iitb_1742993080_3596809111457290615_66127583775.webp",
+      image: "/images/instagram_photos/quant.iitb/quantquest.webp",
       date: "March 29-30, 2025",
       platform: "Online Comp & LHC",
       team: "Teams of 2",
