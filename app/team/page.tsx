@@ -12,13 +12,13 @@ export default function TeamPage() {
     {
       name: 'Siva Chinta Madhav',
       role: 'Manager',
-      linkedIn: 'https://www.linkedin.com/in/siva-madhav-chinta',
+      linkedIn: 'https://www.linkedin.com/in/siva-madhav-chinta-94a25024a/',
       image: '/images/team_members/siva.png',
     },
     {
       name: 'Prabhat Dubey',
       role: 'Manager',
-      linkedIn: 'https://www.linkedin.com/in/prabhat-dubey',
+      linkedIn: 'https://www.linkedin.com/in/prabhat-dubey-87392b367/',
       image: '/images/team_members/prabhat.png',
     },
   ];
@@ -27,25 +27,25 @@ export default function TeamPage() {
     {
       name: 'Aryan Tamboli',
       role: 'Core Team Member',
-      linkedIn: 'https://www.linkedin.com',
+      linkedIn: 'https://www.linkedin.com/in/aryan-tamboli-a28a74310/',
       image: '/images/team_members/aryan.png',
     },
     {
       name: 'Mudil',
       role: 'Core Team Member',
-      linkedIn: 'https://www.linkedin.com',
+      linkedIn: 'https://www.linkedin.com/in/mudil-goel/',
       image: '/images/team_members/mudil.png',
     },
     {
-      name: 'Swayam Verma',
+      name: 'Swayam Raj',
       role: 'Core Team Member',
-      linkedIn: 'https://www.linkedin.com',
+      linkedIn: 'https://www.linkedin.com/in/swayam-raj-8a6680368/',
       image: '/images/team_members/swayam.png',
     },
     {
       name: 'Hrisika Agarwal',
       role: 'Core Team Member',
-      linkedIn: 'https://www.linkedin.com',
+      linkedIn: 'https://www.linkedin.com/in/hrishika-agrawal-145828317/',
       image: '/images/team_members/hrishika.png',
     },
     {
@@ -73,9 +73,9 @@ export default function TeamPage() {
       image: '/images/team_members/gurnoor.png',
     },
     {
-      name: 'Divyansh',
+      name: 'Divyansh Chaudhary',
       role: 'Core Team Member',
-      linkedIn: 'https://www.linkedin.com',
+      linkedIn: 'https://www.linkedin.com/in/divyanshchaudhary1108/',
       image: '/images/team_members/divyansh.png',
     },
     {
