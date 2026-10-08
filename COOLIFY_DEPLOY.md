@@ -1,6 +1,6 @@
 # Coolify Deployment Guide
 
-This guide will help you deploy the Quant Community website to Coolify.
+This guide will help you deploy the Quant Club website to Coolify.
 
 ## Prerequisites
 
@@ -162,7 +162,7 @@ For Coolify-specific issues:
 - GitHub: https://github.com/coollabsio/coolify
 
 For website issues:
-- Contact: quantcommunity@iitb.ac.in
+- Contact: quantclub@iitb.ac.in
 
 ---
 

@@ -155,6 +155,6 @@
 
 ## ✨ Deployment Complete!
 
-Your Quant Community website is now live and accessible globally!
+Your Quant Club website is now live and accessible globally!
 
 **Remember**: Every push to main will automatically redeploy the site.

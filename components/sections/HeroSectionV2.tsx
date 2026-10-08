@@ -55,7 +55,7 @@ const HeroSectionV2: React.FC = () => {
 
       {/* Mesh gradient background */}
       <div className="absolute inset-0 z-[1] mesh-bg opacity-30" />
-
+      <div className="absolute inset-x-0 bottom-0 h-40 z-[2] bg-gradient-to-b from-transparent to-[#0A0A0A]" />
       {/* Content Container */}
       <div className="relative z-10 flex items-center min-h-screen px-6 sm:px-8 lg:px-12 py-24 sm:py-28">
         <div className="max-w-7xl mx-auto w-full">
@@ -81,7 +81,7 @@ const HeroSectionV2: React.FC = () => {
                   QUANT
                 </span>
                 <span className="block text-white">
-                  COMMUNITY
+                  CLUB
                 </span>
               </motion.h1>
 
@@ -127,33 +127,39 @@ const HeroSectionV2: React.FC = () => {
               className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5 pt-2"
             >
               {/* Primary CTA */}
-              <motion.a
-                href="/projects"
-                className="group relative w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#00BFFF] text-[#0A0A0A] font-bold rounded-xl overflow-hidden shadow-glow-md hover:shadow-glow-lg transition-all duration-300"
-                whileHover={{ scale: 1.02, y: -2 }}
-                whileTap={{ scale: 0.98 }}
+              <a
+                href="/about"
+                className="group relative overflow-hidden w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 glass-border backdrop-blur-xl text-white font-semibold rounded-xl hover:border-[#00BFFF] hover:shadow-[0_0_25px_rgba(0,191,255,0.45)]    transition-[transform,border-color,box-shadow] duration-[350ms] ease-out hover:-translate-y-1 hover:scale-[1.04] active:scale-[0.98] will-change-transform"
+                // whileHover={{ scale: 1.02, y: -2 }}
+                // whileTap={{ scale: 0.98 }}
+                // transition={{ duration: 0.25, ease: 'easeOut' }}
               >
-                <span className="relative z-10 flex items-center justify-center gap-2 text-sm sm:text-base">
-                  <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5" />
-                  Explore Our Work
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                <div className="absolute inset-0 bg-[#00BFFF] -translate-x-full group-hover:translate-x-0 transition-transform duration-[450ms] ease-out will-change-transform" />
+                <span className="relative z-10 flex w-full items-center justify-center text-sm sm:text-base transition-colors duration-300 group-hover:text-[#0A0A0A]">
+                  <span className="transition-transform duration-300 group-hover:-translate-x-3">
+                    Explore Our Club
+                  </span>
                 </span>
-                {/* Shimmer effect */}
-                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-              </motion.a>
+                <ArrowRight className="absolute right-3 top-1/2 z-10 w-4 h-4 sm:w-5 sm:h-5 text-[#0A0A0A] -translate-y-1/2 -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+              </a>
 
               {/* Secondary CTA */}
-              <motion.a
+              <a
                 href="/join"
-                className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 glass-border backdrop-blur-xl text-white font-semibold rounded-xl hover:border-[#00BFFF]/50 transition-all duration-300"
-                whileHover={{ scale: 1.02, y: -2 }}
-                whileTap={{ scale: 0.98 }}
+                className="group relative overflow-hidden w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 glass-border backdrop-blur-xl text-white font-semibold rounded-xl hover:border-[#00BFFF] hover:shadow-[0_0_25px_rgba(0,191,255,0.45)]    transition-[transform,border-color,box-shadow] duration-[350ms] ease-out hover:-translate-y-1 hover:scale-[1.04] active:scale-[0.98] will-change-transform"
+                // whileHover={{ scale: 1.02, y: -2 }}
+                // whileTap={{ scale: 0.98 }}
+                // transition={{ duration: 0.25, ease: 'easeOut' }}
               >
-                <span className="flex items-center justify-center gap-2 text-sm sm:text-base">
-                  Join the Community
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" />
+                <div className="absolute inset-0 bg-[#00BFFF] -translate-x-full group-hover:translate-x-0 transition-transform duration-[450ms] ease-out will-change-transform" />
+                <span className="relative z-10 flex w-full items-center justify-center text-sm sm:text-base transition-colors duration-300 group-hover:text-[#0A0A0A]">
+                  <span className="transition-transform duration-300 group-hover:-translate-x-3">
+                    Join the Club
+                  </span>
                 </span>
-              </motion.a>
+                <ArrowRight className="absolute right-3 top-1/2 z-10 w-4 h-4 sm:w-5 sm:h-5 text-[#0A0A0A] -translate-y-1/2 -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+              </a>
+
             </motion.div>
 
             {/* Stats Row */}
@@ -164,10 +170,10 @@ const HeroSectionV2: React.FC = () => {
               className="grid grid-cols-2 gap-6 sm:gap-8 pt-6 max-w-2xl"
             >
               {[
-                { value: '900+', label: 'Members' },
-                { value: '1000+', label: 'SoQ Participants' },
-                { value: '20+', label: 'Team Members' },
-                { value: '20+', label: 'Events' },
+                { value: '5000+', label: 'Members' },
+                { value: '1500+', label: 'SoQ Participants' },
+                { value: '14', label: 'Team Members' },
+                { value: '25+', label: 'Events/year' },
               ].map((stat, index) => (
                 <div key={index} className="space-y-1">
                   <motion.div
@@ -237,7 +243,7 @@ const HeroSectionV2: React.FC = () => {
                 >
                   <Image
                     src="/images/qc_white_logo.png"
-                    alt="Quant Community Logo"
+                    alt="Quant Club Logo"
                     fill
                     className="object-contain drop-shadow-2xl"
                     priority

@@ -180,7 +180,7 @@ const HeroSection: React.FC = () => {
             </Button>
             <Button href="/join" variant="outline" size="lg" className="text-base sm:text-lg">
               <Sparkles className="w-5 h-5" />
-              Join the Community
+              Join the Club
             </Button>
           </motion.div>
 

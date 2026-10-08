@@ -24,7 +24,7 @@ export default function PreLoader() {
   }, []);
 
   const line1 = "QUANT";
-  const line2 = "COMMUNITY";
+  const line2 = "CLUB";
   const letters1 = line1.split('');
   const letters2 = line2.split('');
 

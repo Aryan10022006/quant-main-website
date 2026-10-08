@@ -17,7 +17,7 @@ const duplicatedSponsors = [...sponsors, ...sponsors, ...sponsors];
 
 export default function SponsorsBanner() {
   return (
-    <section className="relative w-full py-8 bg-[#0A0A0A] border-y border-white/5 overflow-hidden">
+    <section className="relative w-full py-8 bg-[#0A0A0A] overflow-hidden">
       {/* Section Title */}
       <div className="text-center mb-6">
         <motion.h3

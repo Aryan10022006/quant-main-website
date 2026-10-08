@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
     social: [
       {
         name: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/quant-community-iit-bombay',
+        href: 'https://www.linkedin.com/company/quant-community',
         icon: Linkedin,
         color: 'hover:text-primary-400 hover:bg-primary-500/10',
       },
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
               <div className="relative w-20 h-20 flex items-center justify-center flex-shrink-0">
                 <img 
                   src="/images/qc_white_logo.png" 
-                  alt="Quant Community Logo" 
+                  alt="Quant Club Logo" 
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
                   style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 900 }}
                 >
                   <span className="bg-gradient-to-r from-white via-[#00BFFF] to-[#0EA5E9] bg-clip-text text-transparent">
-                    QUANT COMMUNITY
+                    QUANT CLUB
                   </span>
                 </h3>
                 <p className="text-[9px] text-gray-500 font-bold tracking-[0.25em] mt-1">IIT BOMBAY</p>
@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
         <div className="pt-8 border-t border-dark-800/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-dark-500 text-sm">
-              © {currentYear} Quant Community, IIT Bombay. All rights reserved.
+              © {currentYear} Quant Club, IIT Bombay. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-dark-500 text-sm">
               <span>Made with</span>

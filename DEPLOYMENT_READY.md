@@ -146,7 +146,7 @@ Before deploying, verify:
 
 ## 🎉 You're Ready!
 
-Your Quant Community website is now:
+Your Quant Club website is now:
 1. ✅ **Favicon-ready** - Logo appears in browser tabs
 2. ✅ **Vercel-ready** - One-click deployment configured
 3. ✅ **Mobile-responsive** - Works perfectly on all devices

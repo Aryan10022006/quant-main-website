@@ -132,7 +132,7 @@ If deployment fails:
 - **Coolify Docs**: https://coolify.io/docs
 - **Coolify Discord**: https://coollabs.io/discord
 - **Project Issues**: Create issue in Git repository
-- **Emergency Contact**: quantcommunity@iitb.ac.in
+- **Emergency Contact**: quantclub@iitb.ac.in
 
 ---
 

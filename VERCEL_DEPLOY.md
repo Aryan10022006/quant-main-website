@@ -1,6 +1,6 @@
 # Vercel Deployment Guide
 
-This guide will help you deploy the Quant Community website to Vercel.
+This guide will help you deploy the Quant Club website to Vercel.
 
 ## 🚀 Quick Deploy
 
@@ -179,8 +179,8 @@ Preview deployments are created for:
 
 ## 🎉 Success!
 
-Your Quant Community website is now live on Vercel!
+Your Quant Club website is now live on Vercel!
 
 **Production URL**: `https://your-project.vercel.app`
 
-Share your site and start engaging with the community!
+Share your site and start engaging with the club!

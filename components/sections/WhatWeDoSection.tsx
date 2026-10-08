@@ -38,10 +38,10 @@ const WhatWeDoSection: React.FC = () => {
   ];
 
   return (
-    <section className="relative w-full py-24 bg-[#0A0A0A] overflow-hidden">
+    <section className="relative w-full pt-4 pb-10 bg-[#0A0A0A] overflow-hidden">
       {/* Background Mesh */}
       <div className="absolute inset-0 mesh-bg opacity-30" />
-
+      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0A0A0A] to-transparent" />
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <motion.div
@@ -72,13 +72,13 @@ const WhatWeDoSection: React.FC = () => {
           </h2>
 
           <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            We&apos;re a community of passionate students exploring the intersection of mathematics,
+            We&apos;re a club of passionate students exploring the intersection of mathematics,
             computer science, and finance through hands-on projects and research.
           </p>
         </motion.div>
 
         {/* Initiatives Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {initiatives.map((item, index) => (
             <motion.div
               key={index}
@@ -123,8 +123,9 @@ const WhatWeDoSection: React.FC = () => {
             </motion.div>
           ))}
         </div>
-
+        
         {/* Stats Grid */}
+        {false && (
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -162,6 +163,7 @@ const WhatWeDoSection: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
+      )}
       </div>
     </section>
   );

@@ -83,7 +83,7 @@ export default function EventsPage() {
     },
     {
       title: "QC Newsletter",
-      partner: "Quant Community Initiative",
+      partner: "Quant Club Initiative",
       image: "/images/instagram_photos/quant.iitb/newsletter.webp",
       date: "Launched July 24, 2024",
       platform: "Online",
@@ -130,7 +130,7 @@ export default function EventsPage() {
       description: "Optiver's virtual trade-a-thon to compete for top prizes and challenge quantitative skills by solving puzzles on the fair theoretical value of a stock.",
     },
     {
-      title: "Quant Community Orientation 2024",
+      title: "Quant Club Orientation 2024",
       partner: "Citadel Securities",
       image: "/images/instagram_photos/quant.iitb/quant.iitb_1714924457_3361352432536621281_66127583775.heic",
       date: "May 8, 2024",
@@ -167,7 +167,7 @@ export default function EventsPage() {
               Events & <span className="bg-gradient-to-r from-[#00BFFF] via-[#0EA5E9] to-[#0891B2] bg-clip-text text-transparent">Workshops</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed px-4">
-              Explore our journey through competitions, workshops, and industry collaborations that have shaped our community.
+              Explore our journey through competitions, workshops, and industry collaborations that have shaped our club.
             </p>
           </motion.div>
         </div>
@@ -279,7 +279,7 @@ export default function EventsPage() {
               Don&apos;t Miss Out on <span className="bg-gradient-to-r from-[#00BFFF] to-[#0891B2] bg-clip-text text-transparent">Future Events</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-              Join our community to get notified about upcoming workshops, competitions, and guest lectures
+              Join our club to get notified about upcoming workshops, competitions, and guest lectures
             </p>
             <motion.a
               href="/join"

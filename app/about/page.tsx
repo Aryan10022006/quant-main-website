@@ -48,7 +48,7 @@ export default function AboutPage() {
             </motion.div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-dark-50 mb-6">
-              About <span className="gradient-text">Quant Community</span>
+              About <span className="gradient-text">Quant Club</span>
             </h1>
             <p className="text-xl text-dark-300 max-w-3xl mx-auto leading-relaxed">
               Building the bridge between <span className="text-accent-cyan font-semibold">academia</span> and the{' '}
@@ -72,7 +72,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-6 text-lg text-dark-300">
               <p className="leading-relaxed border-l-4 border-primary-500 pl-6">
-                The Quant Community at IIT Bombay is a student-led initiative dedicated to 
+                The Quant Club at IIT Bombay is a student-led initiative dedicated to 
                 pioneering <span className="text-primary-400 font-semibold">quantitative research</span>, 
                 <span className="text-primary-400 font-semibold"> algorithmic trading</span>, and 
                 <span className="text-primary-400 font-semibold"> data-driven finance</span>. 
@@ -133,7 +133,7 @@ export default function AboutPage() {
               Why <span className="gradient-text">Join</span>?
             </h2>
             <p className="text-lg text-dark-300 max-w-2xl mx-auto">
-              Become part of a community that&apos;s shaping the future of quantitative finance
+              Become part of a club that&apos;s shaping the future of quantitative finance
             </p>
           </div>
 

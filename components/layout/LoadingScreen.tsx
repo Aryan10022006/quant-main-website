@@ -225,7 +225,7 @@ export default function LoadingScreen() {
                   transition={{ delay: 0.4, duration: 0.5 }}
                 >
                   <div className="text-2xl font-bold bg-gradient-to-r from-primary-400 via-[#00BFFF] to-accent-cyan bg-clip-text text-transparent tracking-wide">
-                    QUANT COMMUNITY
+                    QUANT CLUB
                   </div>
                   <div className="text-xs text-dark-500 mt-2 tracking-[0.3em] font-light">
                     IIT BOMBAY

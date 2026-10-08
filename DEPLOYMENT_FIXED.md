@@ -123,7 +123,7 @@ Only 2 warnings remain (these are intentional and won't break deployment):
 
 ## 🎊 Success!
 
-Your Quant Community website is now:
+Your Quant Club website is now:
 - ✅ **Error-free build**
 - ✅ **Coolify-ready**
 - ✅ **Netlify-ready**

@@ -1,8 +1,8 @@
-# Quant Community, IIT Bombay - Official Website# Quant Community, IIT Bombay - Official Website
+# Quant Club, IIT Bombay - Official Website# Quant Club, IIT Bombay - Official Website
 
 
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black)](https://nextjs.org/)A professional, production-ready website for the Quant Community at IIT Bombay, built with Next.js 14, TypeScript, and Tailwind CSS.
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black)](https://nextjs.org/)A professional, production-ready website for the Quant Club at IIT Bombay, built with Next.js 14, TypeScript, and Tailwind CSS.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
@@ -12,7 +12,7 @@
 
 - **Modern Tech Stack**: Next.js 14 with App Router, TypeScript, Tailwind CSS, and Framer Motion
 
-A modern, professional website for the Quant Community at IIT Bombay, built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.- **Fully Responsive**: Beautiful design that works seamlessly on all devices
+A modern, professional website for the Quant Club at IIT Bombay, built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.- **Fully Responsive**: Beautiful design that works seamlessly on all devices
 
 - **Professional Design**: Clean, modern aesthetic with cyan accent colors
 
@@ -20,7 +20,7 @@ A modern, professional website for the Quant Community at IIT Bombay, built with
 
 - **SEO Optimized**: Proper meta tags and semantic HTML
 
-Visit: [quantcommunity-iitb.vercel.app](https://quantcommunity-iitb.vercel.app) *(Update with actual URL)*- **Fast Performance**: Optimized for speed and Core Web Vitals
+Visit: [quantclub-iitb.vercel.app](https://quantclub-iitb.vercel.app) *(Update with actual URL)*- **Fast Performance**: Optimized for speed and Core Web Vitals
 
 
 
@@ -30,7 +30,7 @@ Visit: [quantcommunity-iitb.vercel.app](https://quantcommunity-iitb.vercel.app) 
 
 - **Modern Tech Stack**: Next.js 14 App Router, TypeScript, Tailwind CSS, Framer Motion```
 
-- **Fully Responsive**: Optimized for mobile, tablet, and desktopquant-community-iitb/
+- **Fully Responsive**: Optimized for mobile, tablet, and desktopquant-club-iitb/
 
 - **Professional Design**: Dark theme with cyan accent (#00BFFF) and glassmorphism effects├── app/                          # Next.js App Router pages
 
@@ -50,7 +50,7 @@ Visit: [quantcommunity-iitb.vercel.app](https://quantcommunity-iitb.vercel.app) 
 
 ```│   └── globals.css              # Global styles & Tailwind imports
 
-quant-community-iitb/│
+quant-club-iitb/│
 
 ├── app/                              # Next.js 14 App Router├── components/                   # React components
 
@@ -64,7 +64,7 @@ quant-community-iitb/│
 
 │   ├── team/page.tsx                # Team members showcase│   │   ├── Navbar.tsx           # Navigation bar with mobile menu
 
-│   ├── join/page.tsx                # Recruitment & community info│   │   └── Footer.tsx           # Site footer
+│   ├── join/page.tsx                # Recruitment & club info│   │   └── Footer.tsx           # Site footer
 
 │   ├── sponsors/page.tsx            # Partners & sponsors page│   ├── sections/                # Homepage sections
 
@@ -86,7 +86,7 @@ quant-community-iitb/│
 
 │   │   └── Footer.tsx              # Site footer│   └── images/                  # Images and logos
 
-│   ├── sections/                    # Page sections│       └── qc_logo_dark.png     # Community logo
+│   ├── sections/                    # Page sections│       └── qc_logo_dark.png     # Club logo
 
 │   │   ├── HeroSectionV2.tsx       # Hero with rotating QC logo│
 
@@ -196,11 +196,11 @@ npm run build
 
    ```bash- **Partners Section**: Industry partners and IITB-Citadel Lab highlight
 
-   git clone https://github.com/quant-community-iitb/website.git
+   git clone https://github.com/quant-club-iitb/website.git
 
    cd website### About (`/about`)
 
-   ```- Mission statement and community overview
+   ```- Mission statement and club overview
 
 - Introduction to quantitative finance
 
@@ -252,9 +252,9 @@ npm start
 
 - **Hero Section**: Animated QC logo (horizontal rotation), typing animation, statistics
 
-- **Community Stats**: 900+ Members, 1000+ SoQ Participants, 20+ Team Members, 20+ Events## 🚢 Deployment
+- **Club Stats**: 900+ Members, 1000+ SoQ Participants, 20+ Team Members, 20+ Events## 🚢 Deployment
 
-- **CTA Buttons**: "Explore Our Work" and "Join the Community"
+- **CTA Buttons**: "Explore Our Work" and "Join the Club"
 
 - **Sponsors Banner**: Scrolling partner logos### Deploy to Vercel (Recommended)
 
@@ -274,7 +274,7 @@ npm start
 
 ### Team (`/team`)1. Build the project: `npm run build`
 
-- **2 Managers**: Siva Shankar Chitlanchya Madhav, Prabhat Dubey2. Deploy the `.next` folder to Netlify
+- **2 Managers**: Mudil Goel, Hrishika Agrawal2. Deploy the `.next` folder to Netlify
 
 - **9 Core Team Members**: Aryan, Mudil, Swayam, Hrisika, Abhinav, Devansh, Raaj, Gunjan, Divyansh
 
@@ -284,7 +284,7 @@ npm start
 
 ### Join (`/join`)- DigitalOcean App Platform
 
-- **Community Engagement**: For all members vs. Core researchers- Cloudflare Pages
+- **Club Engagement**: For all members vs. Core researchers- Cloudflare Pages
 
 - **Manager Contacts**: 
 
@@ -368,13 +368,13 @@ Configure in Vercel dashboard: Settings → Domains3. Commit your changes (`git 
 
 Edit `app/events/page.tsx`:
 
-```typescript**Quant Community, IIT Bombay**
+```typescript**Quant Club, IIT Bombay**
 
-const eventsData = [- Email: quantcommunity@iitb.ac.in
+const eventsData = [- Email: quantclub@iitb.ac.in
 
-  {- LinkedIn: [Quant Community IIT Bombay](https://www.linkedin.com/company/quant-community-iit-bombay)
+  {- LinkedIn: [Quant Club IIT Bombay](https://www.linkedin.com/company/quant-club-iit-bombay)
 
-    title: "Event Name",- GitHub: [quant-community-iitb](https://github.com/quant-community-iitb)
+    title: "Event Name",- GitHub: [quant-club-iitb](https://github.com/quant-club-iitb)
 
     partner: "Partner Name",
 
@@ -390,11 +390,11 @@ const eventsData = [- Email: quantcommunity@iitb.ac.in
 
 ```
 
-- IIT Bombay for hosting the community
+- IIT Bombay for hosting the club
 
 ### Update Team Members- Industry partners: Citadel Securities, AlgoBulls, IMC Trading, QuantInsti
 
-Edit `app/team/page.tsx`:- All community members and contributors
+Edit `app/team/page.tsx`:- All club members and contributors
 
 ```typescript
 
@@ -402,7 +402,7 @@ const managers = [---
 
   { name: "Name", role: "Manager", linkedIn: "URL" },
 
-];Built with ❤️ by the Quant Community, IIT Bombay
+];Built with ❤️ by the Quant Club, IIT Bombay
 
 ```
 
@@ -447,18 +447,18 @@ Edit `app/sponsors/page.tsx` and add logo to `/public/images/`
 
 ## 📧 Contact
 
-**Quant Community, IIT Bombay**
+**Quant Club, IIT Bombay**
 
-- **Email**: quantcommunity@iitb.ac.in
+- **Email**: quantclub@iitb.ac.in
 - **Managers**:
-  - Siva Shankar Chitlanchya Madhav: +91 86391 47440
-  - Prabhat Dubey: +91 90763 73141
-- **LinkedIn**: [Quant Community IIT Bombay](https://www.linkedin.com/company/quant-community-iit-bombay)
+  - Mudil Goel: +91 86391 47440
+  - Hrishika Agrawal: +91 90763 73141
+- **LinkedIn**: [Quant Club IIT Bombay](https://www.linkedin.com/company/quant-club-iit-bombay)
 - **Instagram**: [@quant.iitb](https://www.instagram.com/quant.iitb)
 
 ## 📊 Statistics (October 2025)
 
-- **900+** Community Members
+- **900+** Club Members
 - **1000+** Summer of Quant Participants
 - **20+** Team Members
 - **20+** Events Conducted
@@ -468,7 +468,7 @@ Edit `app/sponsors/page.tsx` and add logo to `/public/images/`
 
 - **Industry Partners**: IMC Trading, Optiver, Tower Research Capital, CQF Institute, QRT, DTL
 - **Academic Partner**: IIT Bombay
-- **Contributors**: All community members and core team
+- **Contributors**: All club members and core team
 
 ## 📜 License
 
@@ -476,6 +476,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Built with ❤️ by the Quant Community, IIT Bombay**
+**Built with ❤️ by the Quant Club, IIT Bombay**
 
 *Last Updated: October 30, 2025*

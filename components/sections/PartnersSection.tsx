@@ -21,7 +21,7 @@ const PartnersSection: React.FC = () => {
           </h2>
           <p className="text-lg text-dark-300 max-w-2xl mx-auto">
             We collaborate with leading firms in quantitative finance and algorithmic trading 
-            to bring real-world insights to our community.
+            to bring real-world insights to our club.
           </p>
         </div>
 

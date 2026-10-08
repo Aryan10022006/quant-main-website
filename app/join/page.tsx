@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { UserPlus, BookOpen, Award, Mail, Check, Sparkles } from 'lucide-react';
+import { UserPlus, BookOpen, Award, Mail, Check, Sparkles, Instagram, Linkedin } from 'lucide-react';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 
@@ -45,15 +45,15 @@ export default function JoinPage() {
               className="inline-flex items-center gap-2 px-4 py-2 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full mb-6"
             >
               <UserPlus className="w-4 h-4 text-accent-cyan" />
-              <span className="text-sm font-medium text-accent-cyan">Join Our Community</span>
+              <span className="text-sm font-medium text-accent-cyan">Join Our Club</span>
             </motion.div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-dark-50 mb-6">
-              Join the <span className="gradient-text">Quant Community</span>
+              Join the <span className="gradient-text">Quant Club</span>
             </h1>
             <p className="text-xl text-dark-300 max-w-3xl mx-auto leading-relaxed">
               Connect with IIT Bombay&apos;s premier{' '}
-              <span className="text-accent-cyan font-semibold">quantitative finance</span> community.
+              <span className="text-accent-cyan font-semibold">quantitative finance</span> club.
               Stay updated on workshops, competitions, and industry insights.
             </p>
           </motion.div>
@@ -71,7 +71,7 @@ export default function JoinPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-dark-50 mb-4">
-              Community <span className="gradient-text">Engagement</span>
+              Club <span className="gradient-text">Engagement</span>
             </h2>
             <p className="text-lg text-dark-300 max-w-2xl mx-auto">
               Connect with us and explore opportunities to grow in quantitative finance
@@ -140,7 +140,7 @@ export default function JoinPage() {
                       </li>
                       <li className="flex items-start">
                         <Check className="w-4 h-4 text-accent-cyan mr-2 mt-0.5 flex-shrink-0" />
-                        <span className="text-dark-300"><strong>Community Support:</strong> Connect with peers interested in quantitative finance</span>
+                        <span className="text-dark-300"><strong>Club Support:</strong> Connect with peers interested in quantitative finance</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="w-4 h-4 text-accent-cyan mr-2 mt-0.5 flex-shrink-0" />
@@ -228,7 +228,7 @@ export default function JoinPage() {
                       </li>
                       <li className="flex items-start">
                         <Check className="w-4 h-4 text-accent-emerald mr-2 mt-0.5 flex-shrink-0" />
-                        <span className="text-dark-300"><strong>Paper Publications:</strong> Co-author research papers and present at community seminars</span>
+                        <span className="text-dark-300"><strong>Paper Publications:</strong> Co-author research papers and present at club seminars</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="w-4 h-4 text-accent-emerald mr-2 mt-0.5 flex-shrink-0" />
@@ -243,7 +243,7 @@ export default function JoinPage() {
 
                   <div className="bg-accent-cyan/5 rounded-lg p-4 border border-accent-cyan/20">
                     <p className="text-xs text-dark-400">
-                      <strong className="text-accent-cyan">Applications Open:</strong> September (for Fall recruitment) and January (for Spring recruitment). Watch for announcements in the community group.
+                      <strong className="text-accent-cyan">Applications Open:</strong> September (for Fall recruitment) and January (for Spring recruitment). Watch for announcements in the club group.
                     </p>
                   </div>
                 </div>
@@ -271,47 +271,45 @@ export default function JoinPage() {
               Ready to <span className="gradient-text">Get Started</span>?
             </h2>
             <p className="text-lg text-dark-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-              Connect with our community managers to learn more and get started
+              Connect with our club to learn more and get started
             </p>
 
-            {/* Community Managers Contact Details */}
+            {/* Contact Options */}
             <div className="mb-10 max-w-2xl mx-auto">
-              <h3 className="text-xl font-bold text-dark-50 mb-6">Contact Our Managers</h3>
+              {/* <h3 className="text-xl font-bold text-dark-50 mb-6">Contact Us</h3> */}
               <div className="grid md:grid-cols-2 gap-6">
-                {/* Siva Shankar Chitlanchya Madhav */}
-                <div className="glass p-6 rounded-xl border border-accent-cyan/30">
-                  <div className="w-12 h-12 bg-accent-cyan/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <UserPlus className="w-6 h-6 text-accent-cyan" />
+                <a
+                  href="https://www.instagram.com/quant.iitb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="glass p-6 rounded-xl border border-accent-cyan/30 hover:border-accent-cyan/50 transition-all duration-300 group"
+                >
+                  <div className="w-12 h-12 bg-accent-cyan/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-cyan/20 transition-colors">
+                    <Instagram className="w-6 h-6 text-accent-cyan" />
                   </div>
-                  <h4 className="text-lg font-bold text-dark-50 mb-2">Siva Shankar Chitlanchya Madhav</h4>
-                  <a 
-                    href="tel:+918639147440" 
-                    className="text-accent-cyan hover:text-accent-cyan/80 transition-colors text-sm font-medium"
-                  >
-                    +91 86391 47440
-                  </a>
-                </div>
+                  <h4 className="text-lg font-bold text-dark-50 mb-2">Instagram</h4>
+                  <p className="text-sm text-dark-300">@quant.iitb</p>
+                </a>
 
-                {/* Prabhat Dubey */}
-                <div className="glass p-6 rounded-xl border border-accent-cyan/30">
-                  <div className="w-12 h-12 bg-accent-cyan/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <UserPlus className="w-6 h-6 text-accent-cyan" />
+                <a
+                  href="https://www.linkedin.com/company/quant-community/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="glass p-6 rounded-xl border border-accent-cyan/30 hover:border-accent-cyan/50 transition-all duration-300 group"
+                >
+                  <div className="w-12 h-12 bg-accent-cyan/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-cyan/20 transition-colors">
+                    <Linkedin className="w-6 h-6 text-accent-cyan" />
                   </div>
-                  <h4 className="text-lg font-bold text-dark-50 mb-2">Prabhat Dubey</h4>
-                  <a 
-                    href="tel:+919076373141" 
-                    className="text-accent-cyan hover:text-accent-cyan/80 transition-colors text-sm font-medium"
-                  >
-                    +91 90763 73141
-                  </a>
-                </div>
+                  <h4 className="text-lg font-bold text-dark-50 mb-2">LinkedIn</h4>
+                  <p className="text-sm text-dark-300">Quant Club IITB</p>
+                </a>
               </div>
             </div>
 
-            {/* Contact Options */}
+            
             <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               <motion.a
-                href="https://chat.whatsapp.com/YOUR_GROUP_LINK_HERE"
+                href="https://chat.whatsapp.com/DivAOthOrvB90rUfmoTxCF"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
@@ -324,7 +322,7 @@ export default function JoinPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold text-dark-50 mb-2">WhatsApp Group</h3>
-                <p className="text-sm text-dark-300">Join our community group for instant updates</p>
+                <p className="text-sm text-dark-300">Join our club group for instant updates</p>
               </motion.a>
 
               <motion.a
@@ -343,7 +341,7 @@ export default function JoinPage() {
 
             <div className="pt-6">
               <p className="text-sm text-dark-400">
-                For recruitment and core team opportunities, watch for announcements in the community group
+                For recruitment and core team opportunities, watch for announcements in the club group
               </p>
             </div>
           </motion.div>

@@ -33,7 +33,7 @@ const PartnerLogos: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg text-dark-300 max-w-2xl mx-auto"
           >
-            Collaborating with industry leaders to bring real-world insights to our community
+            Collaborating with industry leaders to bring real-world insights to our club
           </motion.p>
         </div>
 

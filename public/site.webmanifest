@@ -1,7 +1,7 @@
 {
-  "name": "Quant Community, IIT Bombay",
+  "name": "Quant Club, IIT Bombay",
   "short_name": "Quant IITB",
-  "description": "The official hub for IIT Bombay's Quant Community",
+  "description": "The official hub for IIT Bombay's Quant Club",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0A0A0A",

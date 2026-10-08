@@ -20,24 +20,24 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Quant Community, IIT Bombay - Pioneering Quantitative Finance",
-  description: "The official hub for IIT Bombay's Quant Community, driving innovation in algorithmic trading, data analytics, and financial research.",
-  keywords: ["quantitative finance", "IIT Bombay", "algorithmic trading", "quant community", "data science", "finance", "trading"],
-  authors: [{ name: "Quant Community, IIT Bombay" }],
-  creator: "Quant Community, IIT Bombay",
-  publisher: "Quant Community, IIT Bombay",
+  title: "Quant Club, IIT Bombay - Pioneering Quantitative Finance",
+  description: "The official hub for IIT Bombay's Quant Club, driving innovation in algorithmic trading, data analytics, and financial research.",
+  keywords: ["quantitative finance", "IIT Bombay", "algorithmic trading", "quant club", "data science", "finance", "trading"],
+  authors: [{ name: "Quant Club, IIT Bombay" }],
+  creator: "Quant Club, IIT Bombay",
+  publisher: "Quant Club, IIT Bombay",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://quant-iitb.vercel.app",
-    title: "Quant Community, IIT Bombay",
-    description: "The official hub for IIT Bombay's Quant Community, driving innovation in algorithmic trading, data analytics, and financial research.",
-    siteName: "Quant Community, IIT Bombay",
+    title: "Quant Club, IIT Bombay",
+    description: "The official hub for IIT Bombay's Quant Club, driving innovation in algorithmic trading, data analytics, and financial research.",
+    siteName: "Quant Club, IIT Bombay",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Quant Community, IIT Bombay",
-    description: "The official hub for IIT Bombay's Quant Community, driving innovation in algorithmic trading, data analytics, and financial research.",
+    title: "Quant Club, IIT Bombay",
+    description: "The official hub for IIT Bombay's Quant Club, driving innovation in algorithmic trading, data analytics, and financial research.",
   },
   icons: {
     icon: [

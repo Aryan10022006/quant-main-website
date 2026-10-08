@@ -16,7 +16,7 @@ export default function TeamPage() {
       image: '/images/team_members/siva.png',
     },
     {
-      name: 'Prabhat Dubey',
+      name: 'Hrishika Agrawal',
       role: 'Manager',
       linkedIn: 'https://www.linkedin.com/in/prabhat-dubey-87392b367/',
       image: '/images/team_members/prabhat.png',
@@ -159,7 +159,7 @@ export default function TeamPage() {
                 Managers
               </h2>
             </div>
-            <p className="text-dark-400 text-xs sm:text-sm">Leading the Quant Community</p>
+            <p className="text-dark-400 text-xs sm:text-sm">Leading the Quant Club</p>
           </motion.div>
 
           <motion.div 
@@ -212,7 +212,7 @@ export default function TeamPage() {
                 Core Team Members
               </h2>
             </div>
-            <p className="text-dark-400 text-xs sm:text-sm">The backbone of our community</p>
+            <p className="text-dark-400 text-xs sm:text-sm">The backbone of our club</p>
           </motion.div>
 
           <motion.div 

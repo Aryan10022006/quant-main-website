@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
             >
               <Image 
                 src="/images/qc_white_logo.png" 
-                alt="Quant Community Logo" 
+                alt="Quant Club Logo" 
                 width={64}
                 height={64}
                 className="w-full h-full object-contain"
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 900 }}
               >
                 <span className="bg-gradient-to-r from-white via-[#00BFFF] to-[#0EA5E9] bg-clip-text text-transparent">
-                  QUANT COMMUNITY
+                  QUANT CLUB
                 </span>
               </motion.h1>
               <p className="text-[9px] text-gray-400 font-bold tracking-[0.3em] mt-0.5 pl-0.5">IIT BOMBAY</p>
