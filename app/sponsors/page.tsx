@@ -22,10 +22,54 @@ const SponsorsPage: React.FC = () => {
       type: 'Primary Partner',
     },
     {
+      name: 'Jane Street',
+      logo: '/images/jane_street.png',
+      description: 'Global quantitative trading firm and liquidity provider.',
+      website: 'https://www.janestreet.com',
+      type: 'Industry Partner',
+    },
+    {
+      name: 'Da Vinci',
+      logo: '/images/davinci.png',
+      description: 'Collaboration partner of the Quant Club.',
+      website: '#',
+      type: 'Industry Partner',
+    },
+    {
+      name: 'Graviton',
+      logo: '/images/graviton.png',
+      description: 'Algorithmic trading firm focused on quantitative research and technology.',
+      website: '#',
+      type: 'Industry Partner',
+      light: true,
+    },
+    {
+      name: 'Quadeye',
+      logo: '/images/quadeye.png',
+      description: 'Quantitative trading firm built on research, data and technology.',
+      website: '#',
+      type: 'Industry Partner',
+      light: true,
+    },
+    {
+      name: 'QRT',
+      logo: '/images/qrt.png',
+      description: 'Investment firm specializing in quantitative research and systematic strategies.',
+      website: '#',
+      type: 'Industry Partner',
+    },
+    {
       name: 'Tower Research Capital',
       logo: '/images/tower_research_capital.png',
       description: 'High-frequency proprietary trading firm that thrives on data, technology, and innovation.',
       website: 'https://www.tower-research.com',
+      type: 'Industry Partner',
+    },
+    {
+      name: 'Tradermath',
+      logo: '/images/tradermath.png',
+      description: 'Collaboration partner of the Quant Club.',
+      website: '#',
       type: 'Industry Partner',
     },
     {
@@ -36,11 +80,11 @@ const SponsorsPage: React.FC = () => {
       type: 'Academic Partner',
     },
     {
-      name: 'QR Capital',
-      logo: '/images/qrt.png',
-      description: 'Investment firm specializing in quantitative research and systematic strategies.',
+      name: 'WorldQuant Brain',
+      logo: '/images/worldquant.png',
+      description: "WorldQuant's platform for quantitative research and alpha development.",
       website: '#',
-      type: 'Industry Partner',
+      type: 'Research Partner',
     },
     {
       name: 'DTL (Dynamic Technology Lab)',
@@ -111,6 +155,7 @@ const SponsorsPage: React.FC = () => {
                     className={`object-contain opacity-90 group-hover:opacity-100 transition-all duration-500 ${
                       partner.name === 'CQF Institute' ? 'w-32' : 'max-w-full max-h-12'
                     }`}
+                    style={partner.light ? { filter: 'brightness(0) invert(1)' } : undefined}
                   />
                 </div>
 

@@ -202,7 +202,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="relative py-20 border-y border-dark-800/50 overflow-hidden">
+      {/* <section className="relative py-20 border-y border-dark-800/50 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary-500/5 to-accent-cyan/5" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -244,7 +244,7 @@ export default function AboutPage() {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

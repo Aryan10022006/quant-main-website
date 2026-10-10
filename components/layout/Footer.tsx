@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
     main: [
       { name: 'Home', href: '/' },
       { name: 'About', href: '/about' },
-      { name: 'Projects', href: '/projects' },
+      // { name: 'Projects', href: '/projects' },
       { name: 'Events', href: '/events' },
       { name: 'Team', href: '/team' },
       { name: 'Join Us', href: '/join' },
@@ -146,14 +146,14 @@ const Footer: React.FC = () => {
               © {currentYear} Quant Club, IIT Bombay. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-dark-500 text-sm">
-              <span>Made with</span>
+              <span>Maintained with</span>
               <motion.div
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
               >
                 <Heart className="h-4 w-4 text-primary-500" fill="currentColor" />
               </motion.div>
-              <span>by Aryan Tamboli</span>
+              <span>by Karmanya Gupta</span>
             </div>
           </div>
         </div>
